@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  helloworldapi:
+    build: .
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=hellodb;Username=hellouser;Password=hellopass
+
+  postgres:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_DB: hellodb
+      POSTGRES_USER: hellouser
+      POSTGRES_PASSWORD: hellopass
+    ports:
+      - "5432:5432"
+

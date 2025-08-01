@@ -1,0 +1,12 @@
+/root/HelloWorldApi/out/HelloWorldApi
+/root/HelloWorldApi/out/appsettings.Development.json
+/root/HelloWorldApi/out/appsettings.json
+/root/HelloWorldApi/out/HelloWorldApi.dll
+/root/HelloWorldApi/out/HelloWorldApi.deps.json
+/root/HelloWorldApi/out/HelloWorldApi.runtimeconfig.json
+/root/HelloWorldApi/out/HelloWorldApi.pdb
+/root/HelloWorldApi/out/Microsoft.AspNetCore.OpenApi.dll
+/root/HelloWorldApi/out/Microsoft.OpenApi.dll
+/root/HelloWorldApi/out/Swashbuckle.AspNetCore.Swagger.dll
+/root/HelloWorldApi/out/Swashbuckle.AspNetCore.SwaggerGen.dll
+/root/HelloWorldApi/out/Swashbuckle.AspNetCore.SwaggerUI.dll
